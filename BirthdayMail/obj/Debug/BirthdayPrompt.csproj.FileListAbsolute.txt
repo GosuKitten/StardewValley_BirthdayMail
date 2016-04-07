@@ -1,0 +1,10 @@
+D:\Steam Games\steamapps\common\Stardew Valley\ModDevelopment\BirthdayPrompt\BirthdayPrompt\obj\Debug\BirthdayPrompt.csprojResolveAssemblyReference.cache
+D:\Steam Games\steamapps\common\Stardew Valley\ModDevelopment\BirthdayPrompt\BirthdayPrompt\bin\Debug\BirthdayPrompt.dll
+D:\Steam Games\steamapps\common\Stardew Valley\ModDevelopment\BirthdayPrompt\BirthdayPrompt\bin\Debug\BirthdayPrompt.pdb
+D:\Steam Games\steamapps\common\Stardew Valley\ModDevelopment\BirthdayPrompt\BirthdayPrompt\bin\Debug\Stardew Valley.exe
+D:\Steam Games\steamapps\common\Stardew Valley\ModDevelopment\BirthdayPrompt\BirthdayPrompt\bin\Debug\StardewModdingAPI.exe
+D:\Steam Games\steamapps\common\Stardew Valley\ModDevelopment\BirthdayPrompt\BirthdayPrompt\bin\Debug\xTile.dll
+D:\Steam Games\steamapps\common\Stardew Valley\ModDevelopment\BirthdayPrompt\BirthdayPrompt\bin\Debug\Lidgren.Network.dll
+D:\Steam Games\steamapps\common\Stardew Valley\ModDevelopment\BirthdayPrompt\BirthdayPrompt\bin\Debug\Steamworks.NET.dll
+D:\Steam Games\steamapps\common\Stardew Valley\ModDevelopment\BirthdayPrompt\BirthdayPrompt\obj\Debug\BirthdayPrompt.dll
+D:\Steam Games\steamapps\common\Stardew Valley\ModDevelopment\BirthdayPrompt\BirthdayPrompt\obj\Debug\BirthdayPrompt.pdb
