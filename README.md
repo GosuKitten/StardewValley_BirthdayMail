@@ -16,5 +16,5 @@ Sourse code is provided, with the entire Visual Studio solution included for eas
 1. Unknown
 
 # Legal:
-You may use this code without explicit permission as long as you credit the original creator (Kathryn Hazuka)
-If you would like to add this mod to a bundle, please contact me first through skype: neborak1, and credit the original creator (Kathryn Hazuka)
+* You may use this code without explicit permission as long as you credit the original creator (Kathryn Hazuka)
+* If you would like to add this mod to a bundle, please contact me first through skype: neborak1, and credit the original creator (Kathryn Hazuka)
