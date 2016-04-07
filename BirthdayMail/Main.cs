@@ -10,39 +10,38 @@ namespace BirthdayMail
 {
     public class Main : Mod
     {
-        private static NPC birthdayNPC;
+        private NPC birthdayNPC;        // NPC object of the villiger who has a birthday
+        private string birthdayMail;    // birthday mail item that corresponds to this NPC
 
         public override void Entry(params object[] objects)
         {
+            // submit to events in StardewModdingAPI
             StardewModdingAPI.Events.TimeEvents.DayOfMonthChanged += Event_DayOfMonthChanged;
         }
 
-        static void Event_DayOfMonthChanged(object sender, EventArgs e)
+        // runs when the day changes
+        private void Event_DayOfMonthChanged(object sender, EventArgs e)
         {
-            //Log.Debug("It's a new day!");
+            // test if today is someone's birthday...
             if (Utility.getTodaysBirthdayNPC(Game1.currentSeason, Game1.dayOfMonth) != null)
             {
+                // ...set nirthday NPC and their mail item
                 birthdayNPC = Utility.getTodaysBirthdayNPC(Game1.currentSeason, Game1.dayOfMonth);
-                //Log.Debug(string.Format("Today is a birthday of {0}", birthdayNPC.name));
+                birthdayMail = birthdayNPC.name + "Birth";
 
+                // if the player knows this NPC...
                 if (Game1.player.friendships.ContainsKey(birthdayNPC.name))
                 {
-                    //Log.Debug(string.Format("Player knows {0}", birthdayNPC.name));
-                    Game1.mailbox.Enqueue(birthdayNPC.name + "Birth");
-                }
-                else
-                {
-                    //Log.Debug(string.Format("Player does not know {0}", birthdayNPC.name));
+                    // ...add the birthday reminder to the mailbox
+                    Game1.mailbox.Enqueue(birthdayMail);
                 }
             }
-            else
+            else // otherwise...
             {
-                //Log.Debug("No birthdays today");
+                // ...reset veriables
                 birthdayNPC = null;
+                birthdayMail = null;
             }
-
-            //for (int i = 0; i < Game1.mailbox.Count; i++)
-            //    Log.Debug(Game1.mailbox.ElementAt(i));
         }
     }
 }
