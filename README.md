@@ -6,7 +6,8 @@ I hope to create many fun and immersive mods!!
 
 Sourse code is provided, with the entire Visual Studio solution included for easy use, if anyone desides to edit anything.
 
-# All known issues have been solved
+# Issues/Bugs:
+All know issues and bugs have been fixed
 
 # Versions:
 1.0.0: 
