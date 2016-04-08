@@ -1,5 +1,5 @@
 // Author: Kathryn Hazuka
-// Version: 1.1.0
+// Version: 1.1.1
 
 using System;
 using StardewModdingAPI;
@@ -68,8 +68,12 @@ namespace BirthdayMail
                 // if the player knows this NPC...
                 if (Game1.player.friendships.ContainsKey(birthdayNPC.name))
                 {
-                    // ...add the birthday reminder to the mailbox
-                    Game1.mailbox.Enqueue(birthdayMail);
+                    // ...if the mailbox doesn't already have the birthday mail...
+                    if (Game1.mailbox.Contains(birthdayMail))
+                    {
+                        // ...add the birthday reminder to the mailbox
+                        Game1.mailbox.Enqueue(birthdayMail);
+                    }
                 }
             }
             else // otherwise...
