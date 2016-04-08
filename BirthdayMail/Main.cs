@@ -69,7 +69,7 @@ namespace BirthdayMail
                 if (Game1.player.friendships.ContainsKey(birthdayNPC.name))
                 {
                     // ...if the mailbox doesn't already have the birthday mail...
-                    if (Game1.mailbox.Contains(birthdayMail))
+                    if (!Game1.mailbox.Contains(birthdayMail))
                     {
                         // ...add the birthday reminder to the mailbox
                         Game1.mailbox.Enqueue(birthdayMail);
