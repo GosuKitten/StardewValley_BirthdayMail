@@ -61,7 +61,7 @@ namespace BirthdayMail
             // test if today is someone's birthday...
             if (Utility.getTodaysBirthdayNPC(Game1.currentSeason, Game1.dayOfMonth) != null)
             {
-                // ...set nirthday NPC and their mail item
+                // ...set birthday NPC and their mail item
                 birthdayNPC = Utility.getTodaysBirthdayNPC(Game1.currentSeason, Game1.dayOfMonth);
                 birthdayMail = birthdayNPC.name + "Birth";
 
