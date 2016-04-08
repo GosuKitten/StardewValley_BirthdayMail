@@ -1,3 +1,6 @@
+// Author: Kathryn Hazuka
+// Version: 1.1.0
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -5,11 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using StardewModdingAPI;
 using StardewValley;
+using System.Timers;
+using System.Collections;
 
 namespace BirthdayMail
 {
     public class Main : Mod
     {
+        private bool firstUpdate = false; 
+        private bool Initialupdate = true;
+
         private NPC birthdayNPC;        // NPC object of the villiger who has a birthday
         private string birthdayMail;    // birthday mail item that corresponds to this NPC
 
@@ -19,8 +27,42 @@ namespace BirthdayMail
             StardewModdingAPI.Events.TimeEvents.DayOfMonthChanged += Event_DayOfMonthChanged;
         }
 
+        // runs once per second from the start of the game 
+        // used for first update to solve the mail not being sent on initial load when adding the mod
+        private void Event_OneSecondTick(object sender, EventArgs e)
+        {
+            // if this is the first update...
+            if (firstUpdate)
+            {
+                // ...check for birthdays and send mail
+                BirthdayMail();
+                firstUpdate = false;
+                // ...unsubmit from this event for optimization.
+                StardewModdingAPI.Events.GameEvents.OneSecondTick -= Event_OneSecondTick;
+            }
+        }
+
         // runs when the day changes
         private void Event_DayOfMonthChanged(object sender, EventArgs e)
+        {
+            // if this is the initial update...
+            if (Initialupdate)
+            {
+                firstUpdate = true;
+                Initialupdate = false;
+                // subscribe the Event_OneSecondTick() function to the OneSecondTick event
+                StardewModdingAPI.Events.GameEvents.OneSecondTick += Event_OneSecondTick;
+            }
+            else // otherwise...
+            {
+                // ...check for birthdays and send mail as usual
+                BirthdayMail();
+            }
+
+        }
+
+        // checks for birthdays and sends mail if needed
+        private void BirthdayMail()
         {
             // test if today is someone's birthday...
             if (Utility.getTodaysBirthdayNPC(Game1.currentSeason, Game1.dayOfMonth) != null)
