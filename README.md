@@ -6,14 +6,18 @@ I hope to create many fun and immersive mods!!
 
 Sourse code is provided, with the entire Visual Studio solution included for easy use, if anyone desides to edit anything.
 
-# Known Issues:
-1. When adding the mod on the same day a villager has a birthday, the mail will not show up that day. Any other days past the initial addition of the mod will work correctly.
+# All known issues have been solved
 
-# Possible causes:
-1. Enqueueing right after load does not work.
+# Versions:
+1.0.0: 
+base release.
 
-# Possible fixes:
-1. Unknown
+1.1.0: 
+fixed issue with mail not showing up on the first day if mod is installed on the day of an NPC birthday.
+
+1.1.1: 
+fixed possible issue with mail being resent if game loads the game back up after saving and quitting.
+
 
 # Legal:
 * You may use this code without explicit permission as long as you credit the original creator (Kathryn Hazuka)
