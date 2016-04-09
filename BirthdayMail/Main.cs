@@ -9,8 +9,7 @@ namespace BirthdayMail
 {
     public class Main : Mod
     {
-        private bool firstUpdate = false; 
-        private bool Initialupdate = true;
+        private bool firstUpdate = true; 
 
         private NPC birthdayNPC;        // NPC object of the villiger who has a birthday
         private string birthdayMail;    // birthday mail item that corresponds to this NPC
@@ -25,25 +24,19 @@ namespace BirthdayMail
         // used for first update to solve the mail not being sent on initial load when adding the mod
         private void Event_OneSecondTick(object sender, EventArgs e)
         {
-            // if this is the first update...
-            if (firstUpdate)
-            {
-                // ...check for birthdays and send mail
-                BirthdayMail();
-                firstUpdate = false;
-                // ...unsubmit from this event for optimization.
-                StardewModdingAPI.Events.GameEvents.OneSecondTick -= Event_OneSecondTick;
-            }
+            // ...check for birthdays and send mail
+            BirthdayMail();
+            firstUpdate = false;
+            // ...unsubmit from this event for optimization.
+            StardewModdingAPI.Events.GameEvents.OneSecondTick -= Event_OneSecondTick;
         }
 
         // runs when the day changes
         private void Event_DayOfMonthChanged(object sender, EventArgs e)
         {
             // if this is the initial update...
-            if (Initialupdate)
+            if (firstUpdate)
             {
-                firstUpdate = true;
-                Initialupdate = false;
                 // subscribe the Event_OneSecondTick() function to the OneSecondTick event
                 StardewModdingAPI.Events.GameEvents.OneSecondTick += Event_OneSecondTick;
             }
