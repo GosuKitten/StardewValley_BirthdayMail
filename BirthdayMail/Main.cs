@@ -11,7 +11,7 @@ namespace BirthdayMail
     {
         private bool firstUpdate = true; 
 
-        private NPC birthdayNPC;        // NPC object of the villiger who has a birthday
+        private NPC birthdayNPC;        // NPC object of the villager who has a birthday
         private string birthdayMail;    // birthday mail item that corresponds to this NPC
 
         public override void Entry(params object[] objects)
