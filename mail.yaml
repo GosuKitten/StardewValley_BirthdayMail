@@ -31,7 +31,7 @@ content:  #!Dictionary<String,String>
     DemetriusBirth: "@,^I wanted to remind you that today is Demetrius' birthday. ^I heard that spring fruits really sing to his soul!^  -Lewis" #!String
     DwarfBirth: "@,^I wanted to remind you that today is Dwarf's birthday. ^He just sits in the mines all day and night, doesn't he? He sure is an odd one...^  -Lewis" #!String
     EmilyBirth: "@,^I wanted to remind you that today is Emily's birthday. ^She must love her red dress. It looks so good on her!^  -Lewis" #!String
-    EvelynBirth: "@,^I wanted to remind you that today is Evelyn's birthday. ^Such a sweet old lady, and so lovely to be around. Her care for Gorge is something special.^  -Lewis" #!String
+    EvelynBirth: "@,^I wanted to remind you that today is Evelyn's birthday. ^Such a sweet old lady, and so lovely to be around. Her care for George is something special.^  -Lewis" #!String
     GeorgeBirth: "@,^I wanted to remind you that today is George's birthday. ^An old man with an old taste pallet.^  -Lewis" #!String
     GusBirth: "@,^I wanted to remind you that today is Gus' birthday. ^I would guess he is from Mexico... but I really can't tell.^  -Lewis" #!String
     JasBirth: "@,^I wanted to remind you that today is Jas' birthday. ^A sweet little girl she is. I hope she will grow up as pretty and happy as she is now.^  -Lewis" #!String
