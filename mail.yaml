@@ -47,7 +47,7 @@ content:  #!Dictionary<String,String>
     SandyBirth: "@,^I wanted to remind you that today is Sandy's birthday. ^She mentioned that you got the bus working again somehow... Amazing!^  -Lewis" #!String
     ShaneBirth: "@,^I wanted to remind you that today is Shane's birthday. ^If I had to guess, I'd say he moved in right after college, but I know better than that.^  -Lewis" #!String
     VincentBirth: "@,^I wanted to remind you that today is Vincent's birthday. ^His mother should really go easy on him. She seems a bit overprotective, don't you agree?^  -Lewis" #!String
-    WillyBirth: "@,^I wanted to remind you that today is Willy's birthday. ^He's a man of the sea. He will never get tired of telling his stories... I just hope I won't have to go into his shop any time soon. The smell is revolting!^  -Lewis" #!String
+    WillyBirth: "@,^I wanted to remind you that today is Willy's birthday. ^Man of the sea. He will never get tired of telling his stories... I just hope I won't have to go into his shop any time soon. The smell is revolting!^  -Lewis" #!String
     WizardBirth: "@,^I wanted to remind you that today is Wizard's birthday. ^Give him something magical, maybe he will use it in his next ritual!^  -Lewis" #!String
     Robin: "Hey there!^I had some extra wood lying around... I thought maybe you could use it. Take care!  ^   -Robin %item object 388 50 %%" #!String
     Demetrius: "Dear @,^I was conducting a field study the other day, and I found this specimen. ^I hope you find it as interesting as I did.    ^   -Demetrius%item object 392 1 394 1 132 1 66 1 %%" #!String
