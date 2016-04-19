@@ -19,8 +19,11 @@ fixed issue with mail not showing up on the first day if mod is installed on the
 1.1.1: 
 fixed possible issue with mail being resent if game loads the game back up after saving and quitting.
 
+1.2.0:
+grammatical and phrasing fixes.
+
 # Credits:
-Thanks to Nurio from Stardew Valley Community Forums for minor code cleanup help: http://community.playstarbound.com/members/nurio.638130/
+Thanks to Nurio from Stardew Valley Community Forums for grammatical and phrasing corrections and minor code cleanup help: http://community.playstarbound.com/members/nurio.638130/
 
 # Legal:
 * You may use this code without explicit permission as long as you credit the original creator (Kathryn Hazuka)
