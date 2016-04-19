@@ -16,39 +16,39 @@ xnbData:
     numSharedResources: 0
 
 content:  #!Dictionary<String,String>
-	AlexBirth: "@,^I wanted to remind you that today is Alex's birthday. ^You can't get strong like him without eating some nutritious meals!^  -Lewis" #!String
-	ElliottBirth: "@,^I wanted to remind you that today is Elliott's birthday. ^That man sure loves the ocean. I bet salty foods don't bother him at all!^  -Lewis" #!String
-	HarveyBirth: "@,^I wanted to remind you that today is Harvey's birthday. ^For someone working as a doctor, it sure is odd to see him at the salon so often with a drink in his hand...^  -Lewis" #!String
-	SamBirth: "@,^I wanted to remind you that today is Sam's birthday. ^The boy acts tough sometimes, but he really is sweat when he wants to.^  -Lewis" #!String
-	SebastianBirth: "@,^I wanted to remind you that today is Sebastian's birthday. ^He might look and act a bit depressed, but he sure loves to learn about the unknown!^  -Lewis" #!String
-	AbigailBirth: "@,^I wanted to remind you that today is Abigail's birthday. ^She is so sweet, and so is her taste!^  -Lewis" #!String
-	HaleyBirth: "@,^I wanted to remind you that today is Haley's birthday. ^I bet it takes some serious work to keep a figure like that!^  -Lewis" #!String
-	LeahBirth: "@,^I wanted to remind you that today is Leah's birthday. ^Such a healthy girl, working hard every day. No wonder she looks so thin and strong!^  -Lewis" #!String
-	MaruBirth: "@,^I wanted to remind you that today is Maru's birthday. ^I saw her sneeking into the mines at one point. I wonder what she wanted from there...^  -Lewis" #!String
-	PennyBirth: "@,^I wanted to remind you that today is Penny's birthday. ^A very fragile girl, but with such a strong heart...^  -Lewis" #!String
-	CarolineBirth: "@,^I wanted to remind you that today is Caroline's birthday. ^She often walks around in summer time, picking up some flowers. So peacefull...^  -Lewis" #!String
-	ClintBirth: "@,^I wanted to remind you that today is Clint's birthday. ^He sure is a man of his own work!^  -Lewis" #!String
-	DemetriusBirth: "@,^I wanted to remind you that today is Demetrius's birthday. ^I heard that spring fruits really sing to his soul!^  -Lewis" #!String
-	DwarfBirth: "@,^I wanted to remind you that today is Dwarf's birthday. ^He just sits in the mines all day and night doesn't he? He sure is an odd one...^  -Lewis" #!String
-	EmilyBirth: "@,^I wanted to remind you that today is Emily's birthday. ^She must love her red shirt. It looks so good on her!^  -Lewis" #!String
-	EvelynBirth: "@,^I wanted to remind you that today is Evelyn's birthday. ^Such an old sweet lady. Very steriotypical if you ask me, and thats why she is so lovely to be around!^  -Lewis" #!String
-	GeorgeBirth: "@,^I wanted to remind you that today is George's birthday. ^An old man with an old taste pallet.^  -Lewis" #!String
-	GusBirth: "@,^I wanted to remind you that today is Gus' birthday. ^I would guess he is from mexico... but i really can't really tell.^  -Lewis" #!String
-	JasBirth: "@,^I wanted to remind you that today is Jas' birthday. ^A sweet little girl she is. I hope she grows up to be as pretty and happy as she is now.^  -Lewis" #!String
-	JodiBirth: "@,^I wanted to remind you that today is Jodi's birthday. ^Her taste pallet really matches that of a great mom!^  -Lewis" #!String
-	KentBirth: "@,^I wanted to remind you that today is Kent's birthday. ^I wonder what things he saw during his service... I heard the military gave them nuts for breakfast!^  -Lewis" #!String
-	KrobusBirth: "@,^I wanted to remind you that today is Krobus' birthday. ^That thing really freaks me out... who knew it lived right below us! like the void itself...^  -Lewis" #!String
-	LewisBirth: "@,^I wanted to remind you that today is my birthday. ^I know you might think it is selfish of me to remind you that... but i like gifts too!^  -Lewis" #!String
-	LinusBirth: "@,^I wanted to remind you that today is Linus' birthday. ^I wish he would understand that we welcome him more than he would like to accept...^  -Lewis" #!String
-	MarnieBirth: "@,^I wanted to remind you that today is Marnie's birthday. ^The work she does around animals is amazing! She is a true farmer.^  -Lewis" #!String
-	PamBirth: "@,^I wanted to remind you that today is Pam's birthday. ^That lady spends way too much time in the salon, don't you think?^  -Lewis" #!String
-	PierreBirth: "@,^I wanted to remind you that today is Pierre's birthday. ^Our town would suffer greatly at his loss. lets hope that Joja mart never gets to him...^  -Lewis" #!String
-	RobinBirth: "@,^I wanted to remind you that today is Robin's birthday. ^She works hard on all of her projects, and I heard she wanted to get goats at some point. I Wonder is she still wants them...^  -Lewis" #!String
-	SandyBirth: "@,^I wanted to remind you that today is Sandy's birthday. ^She mentioned that you got the bus working again somehow... amazing!^  -Lewis" #!String
-	ShaneBirth: "@,^I wanted to remind you that today is Shane's birthday. ^If I had to guess, i'd say he moved in right after college, but I know better than that.^  -Lewis" #!String
-	VincentBirth: "@,^I wanted to remind you that today is Vincent's birthday. ^His mother should really go easy on him, she seems a bit over protective don't you agree?^  -Lewis" #!String
-	WillyBirth: "@,^I wanted to remind you that today is Willy's birthday. ^Man of the sea. He will never get tired of telling his stories... I just hope i won't have to go into his shop anytime soon. The smell is revolting!^  -Lewis" #!String
-	WizardBirth: "@,^I wanted to remind you that today is Wizard's birthday. ^Give him something magical, maybe he will use it in his next ritual!^  -Lewis" #!String
+    AlexBirth: "@,^I wanted to remind you that today is Alex's birthday. ^You can't get strong like him without eating some nutritious meals!^  -Lewis" #!String
+    ElliottBirth: "@,^I wanted to remind you that today is Elliott's birthday. ^That man sure loves the ocean. I bet salty foods don't bother him at all!^  -Lewis" #!String
+    HarveyBirth: "@,^I wanted to remind you that today is Harvey's birthday. ^For someone working as a doctor, it sure is odd to see him at the saloon so often with a drink in his hand...^  -Lewis" #!String
+    SamBirth: "@,^I wanted to remind you that today is Sam's birthday. ^The boy acts tough sometimes, but he really is sweet when he wants to be.^  -Lewis" #!String
+    SebastianBirth: "@,^I wanted to remind you that today is Sebastian's birthday. ^He might look and act a bit depressed, but he sure loves to learn about the unknown!^  -Lewis" #!String
+    AbigailBirth: "@,^I wanted to remind you that today is Abigail's birthday. ^She is so sweet, and so is her taste!^  -Lewis" #!String
+    HaleyBirth: "@,^I wanted to remind you that today is Haley's birthday. ^I bet it takes some serious work to keep a figure like that!^  -Lewis" #!String
+    LeahBirth: "@,^I wanted to remind you that today is Leah's birthday. ^Such a healthy girl, working hard every day. No wonder she looks so slim and strong!^  -Lewis" #!String
+    MaruBirth: "@,^I wanted to remind you that today is Maru's birthday. ^I saw her sneaking into the mines at one point. I wonder what she wanted from there...^  -Lewis" #!String
+    PennyBirth: "@,^I wanted to remind you that today is Penny's birthday. ^A very fragile girl, but with such a strong heart...^  -Lewis" #!String
+    CarolineBirth: "@,^I wanted to remind you that today is Caroline's birthday. ^She often walks around in summer time, picking up some flowers. So peaceful...^  -Lewis" #!String
+    ClintBirth: "@,^I wanted to remind you that today is Clint's birthday. ^He sure is a man of his own work!^  -Lewis" #!String
+    DemetriusBirth: "@,^I wanted to remind you that today is Demetrius' birthday. ^I heard that spring fruits really sing to his soul!^  -Lewis" #!String
+    DwarfBirth: "@,^I wanted to remind you that today is Dwarf's birthday. ^He just sits in the mines all day and night, doesn't he? He sure is an odd one...^  -Lewis" #!String
+    EmilyBirth: "@,^I wanted to remind you that today is Emily's birthday. ^She must love her red dress. It looks so good on her!^  -Lewis" #!String
+    EvelynBirth: "@,^I wanted to remind you that today is Evelyn's birthday. ^Such a sweet old lady. Very stereotypically so, if you ask me. And that's why she is so lovely to be around!^  -Lewis" #!String
+    GeorgeBirth: "@,^I wanted to remind you that today is George's birthday. ^An old man with an old taste pallet.^  -Lewis" #!String
+    GusBirth: "@,^I wanted to remind you that today is Gus' birthday. ^I would guess he is from Mexico... but I really can't tell.^  -Lewis" #!String
+    JasBirth: "@,^I wanted to remind you that today is Jas' birthday. ^A sweet little girl she is. I hope she'll grow up as pretty and happy as she is now.^  -Lewis" #!String
+    JodiBirth: "@,^I wanted to remind you that today is Jodi's birthday. ^Her taste pallet really matches that of a great mom!^  -Lewis" #!String
+    KentBirth: "@,^I wanted to remind you that today is Kent's birthday. ^I wonder what things he saw during his service... I heard the military gave them nuts for breakfast!^  -Lewis" #!String
+    KrobusBirth: "@,^I wanted to remind you that today is Krobus' birthday. ^That thing really freaks me out... who knew it lived right below us! Like the void itself...^  -Lewis" #!String
+    LewisBirth: "@,^I wanted to remind you that today is my birthday. ^I know you might think it is selfish of me to remind you of that... but I like gifts too!^  -Lewis" #!String
+    LinusBirth: "@,^I wanted to remind you that today is Linus' birthday. ^I wish he would understand that we welcome him more than he thinks...^  -Lewis" #!String
+    MarnieBirth: "@,^I wanted to remind you that today is Marnie's birthday. ^The work she does around animals is amazing! She is a true farmer.^  -Lewis" #!String
+    PamBirth: "@,^I wanted to remind you that today is Pam's birthday. ^That lady spends way too much time in the saloon, don't you think?^  -Lewis" #!String
+    PierreBirth: "@,^I wanted to remind you that today is Pierre's birthday. ^Our town would suffer greatly from his loss. Let's hope that Joja Mart never gets to him...^  -Lewis" #!String
+    RobinBirth: "@,^I wanted to remind you that today is Robin's birthday. ^She works hard on all of her projects, and I heard she wanted to have goats at some point. I wonder if she still wants them...^  -Lewis" #!String
+    SandyBirth: "@,^I wanted to remind you that today is Sandy's birthday. ^She mentioned that you got the bus working again somehow... Amazing!^  -Lewis" #!String
+    ShaneBirth: "@,^I wanted to remind you that today is Shane's birthday. ^If I had to guess, I'd say he moved in right after college, but I know better than that.^  -Lewis" #!String
+    VincentBirth: "@,^I wanted to remind you that today is Vincent's birthday. ^His mother should really go easy on him. She seems a bit overprotective, don't you agree?^  -Lewis" #!String
+    WillyBirth: "@,^I wanted to remind you that today is Willy's birthday. ^Man of the sea. He will never get tired of telling his stories... I just hope I won't have to go into his shop any time soon. The smell is revolting!^  -Lewis" #!String
+    WizardBirth: "@,^I wanted to remind you that today is Wizard's birthday. ^Give him something magical, maybe he will use it in his next ritual!^  -Lewis" #!String
     Robin: "Hey there!^I had some extra wood lying around... I thought maybe you could use it. Take care!  ^   -Robin %item object 388 50 %%" #!String
     Demetrius: "Dear @,^I was conducting a field study the other day, and I found this specimen. ^I hope you find it as interesting as I did.    ^   -Demetrius%item object 392 1 394 1 132 1 66 1 %%" #!String
     Linus: "Hello, friend.^The mountain lake has been kind to me lately. I'd like to share my good fortune with you.  ^   -Linus %item object 136 1 143 1 202 1 227 1 228 1 %%" #!String
@@ -179,3 +179,4 @@ content:  #!Dictionary<String,String>
     winter_13_2: "I've got another challenge for you: Catch me a Lingcod.^They don't go down easy, but I know you can do it.^  -Willy%item quest 124 %%" #!String
     winter_19_2: "Dear @,^I'm at my wit's end. I desperately want to make a Coco-no-no at the saloon, but I have no way of getting a coconut!^Can you help me?^  -Gus%item quest 125 %%" #!String
     winter_24: "Dear @,^Tomorrow is the Feast of the Winter Star.^Did you get a gift for your 'secret friend'... %secretsanta?^The feast starts at 9 AM in the town square. See you then! ^   -Mayor Lewis" #!String
+
