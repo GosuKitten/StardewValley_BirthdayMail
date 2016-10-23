@@ -1,5 +1,5 @@
 // Author: Kathryn Hazuka
-// Version: 1.1.1
+// Version: 1.2.0
 
 using System;
 using StardewModdingAPI;
