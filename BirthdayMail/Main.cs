@@ -1,6 +1,3 @@
-// Author: Kathryn Hazuka
-// Version: 1.2.1
-
 using System;
 using StardewModdingAPI;
 using StardewValley;
@@ -14,7 +11,7 @@ namespace BirthdayMail
         private NPC birthdayNPC;        // NPC object of the villager who has a birthday
         private string birthdayMail;    // birthday mail item that corresponds to this NPC
 
-        public override void Entry(params object[] objects)
+        public override void Entry(IModHelper helper)
         {
             // submit to events in StardewModdingAPI
             StardewModdingAPI.Events.TimeEvents.DayOfMonthChanged += Event_DayOfMonthChanged;

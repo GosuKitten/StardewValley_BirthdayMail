@@ -26,3 +26,11 @@ E:\Game Development\Mods\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\Steam
 E:\Game Development\Mods\StardewValley_BirthdayMail\BirthdayMail\obj\Debug\BirthdayMail.csprojResolveAssemblyReference.cache
 E:\Game Development\Mods\StardewValley_BirthdayMail\BirthdayMail\obj\Debug\BirthdayMail.dll
 E:\Game Development\Mods\StardewValley_BirthdayMail\BirthdayMail\obj\Debug\BirthdayMail.pdb
+S:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\BirthdayMail.dll
+S:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\BirthdayMail.pdb
+S:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\xTile.dll
+S:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\Lidgren.Network.dll
+S:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\Steamworks.NET.dll
+S:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\obj\Debug\BirthdayMail.csprojResolveAssemblyReference.cache
+S:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\obj\Debug\BirthdayMail.dll
+S:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\obj\Debug\BirthdayMail.pdb
