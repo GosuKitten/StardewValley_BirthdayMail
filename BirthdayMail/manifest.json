@@ -7,6 +7,7 @@
         "PatchVersion": 2,
         "Build": null
     },
+    "MinimumApiVersion": "1.12",
     "Description": "Receive mail from Lewis reminding you of villagers' birthdays.",
     "UniqueID": "KathrynHazuka.BirthdayMail",
     "EntryDll": "BirthdayMail.dll"
