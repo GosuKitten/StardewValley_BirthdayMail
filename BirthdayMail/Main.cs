@@ -6,17 +6,25 @@ namespace BirthdayMail
 {
     public class Main : Mod
     {
-        private bool firstUpdate = true; 
+        /*********
+        ** Properties
+        *********/
+        private bool firstUpdate = true;
 
-        private NPC birthdayNPC;        // NPC object of the villager who has a birthday
-        private string birthdayMail;    // birthday mail item that corresponds to this NPC
 
+        /*********
+        ** Public methods
+        *********/
         public override void Entry(IModHelper helper)
         {
             // submit to events in StardewModdingAPI
             StardewModdingAPI.Events.TimeEvents.DayOfMonthChanged += Event_DayOfMonthChanged;
         }
 
+
+        /*********
+        ** Private methods
+        *********/
         // runs once per second from the start of the game 
         // used for first update to solve the mail not being sent on initial load when adding the mod
         private void Event_OneSecondTick(object sender, EventArgs e)
@@ -52,8 +60,8 @@ namespace BirthdayMail
             if (Utility.getTodaysBirthdayNPC(Game1.currentSeason, Game1.dayOfMonth) != null)
             {
                 // ...set birthday NPC and their mail item
-                birthdayNPC = Utility.getTodaysBirthdayNPC(Game1.currentSeason, Game1.dayOfMonth);
-                birthdayMail = birthdayNPC.name + "Birth";
+                NPC birthdayNPC = Utility.getTodaysBirthdayNPC(Game1.currentSeason, Game1.dayOfMonth);
+                string birthdayMail = birthdayNPC.name + "Birth";
 
                 // if the player knows this NPC...
                 if (Game1.player.friendships.ContainsKey(birthdayNPC.name))
@@ -65,12 +73,6 @@ namespace BirthdayMail
                         Game1.mailbox.Enqueue(birthdayMail);
                     }
                 }
-            }
-            else // otherwise...
-            {
-                // ...reset veriables
-                birthdayNPC = null;
-                birthdayMail = null;
             }
         }
     }
