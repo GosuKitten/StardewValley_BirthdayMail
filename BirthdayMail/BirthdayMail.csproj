@@ -37,12 +37,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Service References\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Content\Data\mail.xnb">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <None Include="Content\Data\mail.xnb" />
     <None Include="Content\Data\mail.xnb.backup" />
     <None Include="manifest.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -51,12 +46,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Letter.PNG" />
-    <Content Include="Mailbox.PNG">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="ReadMe.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    <Content Include="Mailbox.PNG" />
+    <Content Include="ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Pathoschild.Stardew.ModBuildConfig.1.5.0\build\Pathoschild.Stardew.ModBuildConfig.targets" Condition="Exists('..\packages\Pathoschild.Stardew.ModBuildConfig.1.5.0\build\Pathoschild.Stardew.ModBuildConfig.targets')" />
@@ -68,8 +59,18 @@
   </Target>
   <Target Name="AfterBuild">
     <ItemGroup>
+      <ContentFiles Include="$(ProjectDir)\Content\**\*.*" />
       <ModFiles Include="$(TargetDir)\**\*.*" />
     </ItemGroup>
+
+    <!-- copy to mods folder -->
     <Copy SourceFiles="@(ModFiles)" DestinationFolder="$(GamePath)\Mods\$(TargetName)\%(RecursiveDir)" SkipUnchangedFiles="false" />
+
+    <!--create release package-->
+    <Copy SourceFiles="@(ContentFiles)" DestinationFolder="$(SolutionDir)\bin\Content\%(RecursiveDir)" SkipUnchangedFiles="false" />    
+    <Copy SourceFiles="@(ModFiles)" DestinationFolder="$(SolutionDir)\bin\Mods\BirthdayMail\%(RecursiveDir)" SkipUnchangedFiles="false" />    
+    <Copy SourceFiles="$(ProjectDir)\Letter.PNG" DestinationFolder="$(SolutionDir)\bin" />
+    <Copy SourceFiles="$(ProjectDir)\Mailbox.PNG" DestinationFolder="$(SolutionDir)\bin" />
+    <Copy SourceFiles="$(ProjectDir)\ReadMe.txt" DestinationFolder="$(SolutionDir)\bin" />
   </Target>
 </Project>
