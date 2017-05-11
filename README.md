@@ -22,6 +22,15 @@ fixed possible issue with mail being resent if game loads the game back up after
 1.2.0:
 grammatical and phrasing fixes.
 
+1.2.1:
+update to game version 1.1
+
+1.2.2:
+update to SMAPI version 1.0+
+
+1.3:
+update to Stardew Valley 1.2.
+
 # Credits:
 Thanks to Nurio from Stardew Valley Community Forums for grammatical and phrasing corrections and minor code cleanup help: http://community.playstarbound.com/members/nurio.638130/
 

@@ -31,4 +31,7 @@ update to game version 1.1
 1.2.2:
 update to SMAPI version 1.0+
 
+1.3:
+update to Stardew Valley 1.2.
+
 Thank you and enjoy!~

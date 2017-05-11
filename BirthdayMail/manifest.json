@@ -3,8 +3,8 @@
     "Author": "KathrynHazuka",
     "Version": {
         "MajorVersion": 1,
-        "MinorVersion": 2,
-        "PatchVersion": 2,
+        "MinorVersion": 3,
+        "PatchVersion": 0,
         "Build": null
     },
     "MinimumApiVersion": "1.12",
