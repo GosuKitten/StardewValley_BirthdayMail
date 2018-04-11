@@ -4,7 +4,7 @@ using StardewValley;
 
 namespace BirthdayMail
 {
-    public class Main : Mod
+    public class ModEntry : Mod
     {
         private bool firstUpdate = true; 
 
@@ -14,7 +14,7 @@ namespace BirthdayMail
         public override void Entry(IModHelper helper)
         {
             // submit to events in StardewModdingAPI
-            StardewModdingAPI.Events.TimeEvents.DayOfMonthChanged += Event_DayOfMonthChanged;
+            StardewModdingAPI.Events.TimeEvents.AfterDayStarted += Event_AfterDayStarted;
         }
 
         // runs once per second from the start of the game 
@@ -29,7 +29,7 @@ namespace BirthdayMail
         }
 
         // runs when the day changes
-        private void Event_DayOfMonthChanged(object sender, EventArgs e)
+        private void Event_AfterDayStarted(object sender, EventArgs e)
         {
             // if this is the initial update...
             if (firstUpdate)
