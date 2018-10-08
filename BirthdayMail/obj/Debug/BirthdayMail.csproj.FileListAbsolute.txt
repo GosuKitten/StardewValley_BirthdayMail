@@ -42,3 +42,25 @@ E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\b
 E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\obj\Debug\BirthdayMail.csprojResolveAssemblyReference.cache
 E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\obj\Debug\BirthdayMail.dll
 E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\obj\Debug\BirthdayMail.pdb
+E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\Stardew Valley.exe
+E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\StardewModdingAPI.exe
+E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\Netcode.dll
+E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\GalaxyCSharp.dll
+E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\BmFont.dll
+E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\Stardew Valley.pdb
+E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\StardewModdingAPI.pdb
+E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\StardewModdingAPI.exe.config
+E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\xTile.pdb
+E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\Netcode.pdb
+E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\Lidgren.Network.pdb
+E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\BmFont.pdb
+E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\StardewModdingAPI.Toolkit.CoreInterfaces.dll
+E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\StardewModdingAPI.Toolkit.dll
+E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\Newtonsoft.Json.dll
+E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\Mono.Cecil.dll
+E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\0Harmony.dll
+E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\StardewModdingAPI.Toolkit.CoreInterfaces.pdb
+E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\StardewModdingAPI.Toolkit.pdb
+E:\Game Development\Mods\StardewValley\StardewValley_BirthdayMail\BirthdayMail\bin\Debug\0Harmony.pdb
+D:\Steam Games\steamapps\common\Stardew Valley\Mods\BirthdayMail\BirthdayMail.dll
+D:\Steam Games\steamapps\common\Stardew Valley\Mods\BirthdayMail\BirthdayMail.pdb

@@ -6,7 +6,7 @@ namespace BirthdayMail
 {
     public class ModEntry : Mod
     {
-        private bool firstUpdate = true; 
+        private bool firstUpdate = true;
 
         private NPC birthdayNPC;        // NPC object of the villager who has a birthday
         private string birthdayMail;    // birthday mail item that corresponds to this NPC
@@ -42,7 +42,6 @@ namespace BirthdayMail
                 // ...check for birthdays and send mail as usual
                 BirthdayMail();
             }
-
         }
 
         // checks for birthdays and sends mail if needed
@@ -53,18 +52,9 @@ namespace BirthdayMail
             {
                 // ...set birthday NPC and their mail item
                 birthdayNPC = Utility.getTodaysBirthdayNPC(Game1.currentSeason, Game1.dayOfMonth);
-                birthdayMail = birthdayNPC.name + "Birth";
+                birthdayMail = birthdayNPC.Name + "Birth";
 
-                // if the player knows this NPC...
-                if (Game1.player.friendships.ContainsKey(birthdayNPC.name))
-                {
-                    // ...if the mailbox doesn't already have the birthday mail...
-                    if (!Game1.mailbox.Contains(birthdayMail))
-                    {
-                        // ...add the birthday reminder to the mailbox
-                        Game1.mailbox.Enqueue(birthdayMail);
-                    }
-                }
+                Game1.mailbox.Add(birthdayMail);
             }
             else // otherwise...
             {

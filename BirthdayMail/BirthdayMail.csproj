@@ -16,7 +16,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>D:\Steam Games\steamapps\common\Stardew Valley\Mods\BirthdayMail\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -32,11 +32,13 @@
   <ItemGroup>
     <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553" />
     <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553" />
-    <Reference Include="Stardew Valley">
-      <HintPath>..\..\..\Stardew Valley.exe</HintPath>
+    <Reference Include="Stardew Valley, Version=1.2.6400.27469, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Steam Games\steamapps\common\Stardew Valley\Stardew Valley.exe</HintPath>
     </Reference>
-    <Reference Include="StardewModdingAPI">
-      <HintPath>..\..\..\StardewModdingAPI.exe</HintPath>
+    <Reference Include="StardewModdingAPI, Version=2.5.4.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Steam Games\steamapps\common\Stardew Valley\StardewModdingAPI.exe</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
