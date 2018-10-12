@@ -1,0 +1,44 @@
+{
+	"Format": "1.0",
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"AlexBirth": "@,^I wanted to remind you that today is Alex's birthday. ^You can't get strong like him without eating some nutritious meals!^  -Lewis",
+				"ElliottBirth": "@,^I wanted to remind you that today is Elliott's birthday. ^That man sure loves the ocean. I bet salty foods don't bother him at all!^  -Lewis",
+				"HarveyBirth": "@,^I wanted to remind you that today is Harvey's birthday. ^For someone working as a doctor, it sure is odd to see him at the saloon so often with a drink in his hand...^  -Lewis",
+				"SamBirth": "@,^I wanted to remind you that today is Sam's birthday. ^The boy acts tough sometimes, but he really is sweet when he wants to be.^  -Lewis",
+				"SebastianBirth": "@,^I wanted to remind you that today is Sebastian's birthday. ^He might look and act a bit depressed, but he sure loves to learn about the unknown!^  -Lewis",
+				"AbigailBirth": "@,^I wanted to remind you that today is Abigail's birthday. ^She is so sweet, and so is her taste!^  -Lewis",
+				"HaleyBirth": "@,^I wanted to remind you that today is Haley's birthday. ^I bet it takes some serious work to keep a figure like that!^  -Lewis",
+				"LeahBirth": "@,^I wanted to remind you that today is Leah's birthday. ^Such a healthy girl, working hard every day. No wonder she looks so slim and strong!^  -Lewis",
+				"MaruBirth": "@,^I wanted to remind you that today is Maru's birthday. ^I saw her sneaking into the mines at one point. I wonder what she wanted from there...^  -Lewis",
+				"PennyBirth": "@,^I wanted to remind you that today is Penny's birthday. ^A very fragile girl, but with such a strong heart...^  -Lewis",
+				"CarolineBirth": "@,^I wanted to remind you that today is Caroline's birthday. ^She often walks around in summer time, picking up some flowers. So peaceful...^  -Lewis",
+				"ClintBirth": "@,^I wanted to remind you that today is Clint's birthday. ^He sure is a man of his own work!^  -Lewis",
+				"DemetriusBirth": "@,^I wanted to remind you that today is Demetrius' birthday. ^I heard that spring fruits really sing to his soul!^  -Lewis",
+				"DwarfBirth": "@,^I wanted to remind you that today is Dwarf's birthday. ^He just sits in the mines all day and night, doesn't he? He sure is an odd one...^  -Lewis",
+				"EmilyBirth": "@,^I wanted to remind you that today is Emily's birthday. ^She must love her red dress. It looks so good on her!^  -Lewis",
+				"EvelynBirth": "@,^I wanted to remind you that today is Evelyn's birthday. ^Such a sweet old lady, and so lovely to be around. Her care for George is something special.^  -Lewis",
+				"GeorgeBirth": "@,^I wanted to remind you that today is George's birthday. ^An old man with an old taste pallet.^  -Lewis",
+				"GusBirth": "@,^I wanted to remind you that today is Gus' birthday. ^I would guess he is from Mexico... but I really can't tell.^  -Lewis",
+				"JasBirth": "@,^I wanted to remind you that today is Jas' birthday. ^A sweet little girl she is. I hope she will grow up as pretty and happy as she is now.^  -Lewis",
+				"JodiBirth": "@,^I wanted to remind you that today is Jodi's birthday. ^Her taste pallet really matches that of a great mom!^  -Lewis",
+				"KentBirth": "@,^I wanted to remind you that today is Kent's birthday. ^I wonder what things he saw during his service... I heard the military gave them nuts for breakfast!^  -Lewis",
+				"KrobusBirth": "@,^I wanted to remind you that today is Krobus' birthday. ^That thing really freaks me out... who knew it lived right below us! Like the void itself...^  -Lewis",
+				"LewisBirth": "@,^I wanted to remind you that today is my birthday. ^I know you might think it is selfish of me to remind you of that... but I like gifts too!^  -Lewis",
+				"LinusBirth": "@,^I wanted to remind you that today is Linus' birthday. ^I wish he would understand that we welcome him more than he thinks...^  -Lewis",
+				"MarnieBirth": "@,^I wanted to remind you that today is Marnie's birthday. ^The work she does around animals is amazing! She is a true farmer.^  -Lewis",
+				"PamBirth": "@,^I wanted to remind you that today is Pam's birthday. ^That lady spends way too much time in the saloon, don't you think?^  -Lewis",
+				"PierreBirth": "@,^I wanted to remind you that today is Pierre's birthday. ^Our town would suffer greatly from his loss. Let's hope that Joja Mart never gets to him...^  -Lewis" ,
+				"RobinBirth": "@,^I wanted to remind you that today is Robin's birthday. ^She works hard on all of her projects, and I heard she wanted to have goats at some point. I wonder if she still wants them...^  -Lewis",
+				"SandyBirth": "@,^I wanted to remind you that today is Sandy's birthday. ^She mentioned that you got the bus working again somehow... Amazing!^  -Lewis",
+				"ShaneBirth": "@,^I wanted to remind you that today is Shane's birthday. ^If I had to guess, I'd say he moved in right after college, but I know better than that.^  -Lewis",
+				"VincentBirth": "@,^I wanted to remind you that today is Vincent's birthday. ^His mother should really go easy on him. She seems a bit overprotective, don't you agree?^  -Lewis",
+				"WillyBirth": "@,^I wanted to remind you that today is Willy's birthday. ^Man of the sea. He will never get tired of telling his stories... I just hope I won't have to go into his shop any time soon. The smell is revolting!^  -Lewis",
+				"WizardBirth": "@,^I wanted to remind you that today is Wizard's birthday. ^Give him something magical, maybe he will use it in his next ritual!^  -Lewis",
+			}
+		}
+	]
+}
