@@ -1,4 +1,4 @@
-# Birthday Mail for Stardew Valley by Kathryn Hazuka
+# Birthday Mail for Stardew Valley
 
 This is my first mod and it was so fun to create it. 
 I have learned a lot about modding and the kinds of problems that arise when trying to mod. 
@@ -26,5 +26,5 @@ grammatical and phrasing fixes.
 Thanks to Nurio from Stardew Valley Community Forums for grammatical and phrasing corrections and minor code cleanup help: http://community.playstarbound.com/members/nurio.638130/
 
 # Legal:
-* You may use this code without explicit permission as long as you credit the original creator (Kathryn Hazuka)
-* If you would like to add this mod to a bundle, please contact me first and credit the original creator (Kathryn Hazuka)
+* You may use this code without explicit permission as long as you credit the original creator.
+* If you would like to add this mod to a bundle, please contact me first and credit the original creator.
